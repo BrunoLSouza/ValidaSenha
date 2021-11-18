@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\ValidaSenha\\bpls.validaSenha.API\\bpls.validaSenha.API.csproj",
+      "projectUniqueName": "C:\\Projetos\\ValidaSenha_TesteItau\\bpls.validaSenha.API\\bpls.validaSenha.API.csproj",
       "projectName": "bpls.validaSenha.API",
-      "projectPath": "C:\\Projetos\\ValidaSenha\\bpls.validaSenha.API\\bpls.validaSenha.API.csproj",
+      "projectPath": "C:\\Projetos\\ValidaSenha_TesteItau\\bpls.validaSenha.API\\bpls.validaSenha.API.csproj",
       "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\ValidaSenha\\bpls.validaSenha.API\\obj\\",
+      "outputPath": "C:\\Projetos\\ValidaSenha_TesteItau\\bpls.validaSenha.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

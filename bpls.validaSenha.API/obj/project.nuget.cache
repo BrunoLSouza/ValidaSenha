@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t6oUdnAleqRG6pDuc4EdyeuWbo7DIKMGIq5ujbyfuCk7lsxW9MGMAI/Ha8Nfzg8LsSswOAEzTDATOAOU1MNLdw==",
+  "dgSpecHash": "6NCF01LYqMZIIYDQj4tegn6BafzaqoTUs1VO4Qls0+9+7w3aPGLTSuWryUw8C7MKdW3qCfqdxUanjXQCt9quow==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\ValidaSenha\\bpls.validaSenha.API\\bpls.validaSenha.API.csproj",
+  "projectFilePath": "C:\\Projetos\\ValidaSenha_TesteItau\\bpls.validaSenha.API\\bpls.validaSenha.API.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

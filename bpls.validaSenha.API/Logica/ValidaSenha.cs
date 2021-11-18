@@ -10,7 +10,7 @@ namespace bpls.validaSenha.API.Logica
     {
         public bool ValidaNoveOuMaisCaracteres(string senha)
         {
-            if (!String.IsNullOrWhiteSpace(senha) && senha.Length > 9)
+            if (!String.IsNullOrWhiteSpace(senha) && senha.Length >= 9)
             {
                 return true;
             }
