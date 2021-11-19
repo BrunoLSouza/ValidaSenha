@@ -1,4 +1,5 @@
 ﻿using bpls.validaSenha.Test.ValidaSenhaTests.Fixtures;
+using bpls.validaSenha.Test.XunitAttribute;
 using Xunit;
 
 namespace bpls.validaSenha.Test.ValidaSenhaTests
@@ -14,9 +15,10 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests
         }
 
 
-        [Fact(DisplayName = "Valida Se Existe Caracter Repetido")]
+        [Theory(DisplayName = "Valida Se Existe Caracter Repetido")]
         [Trait("Validação Senha", "Valido")]
-        public void ValidaSeExisteCaracterRepetidoValido()
+        [Repeat(10)]
+        public void ValidaSeExisteCaracterRepetidoValido(int interation)
         {
             //Arrange
             var validaSenha = _validaSenhaTestsFixtures.CriaValidaSenha();
@@ -30,9 +32,10 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests
 
         }
 
-        [Fact(DisplayName = "Valida Nove Ou Mais Caracteres")]
+        [Theory(DisplayName = "Valida Nove Ou Mais Caracteres")]
         [Trait("Validação Senha", "Valido")]
-        public void ValidaNoveOuMaisCaracteresValido()
+        [Repeat(10)]
+        public void ValidaNoveOuMaisCaracteresValido(int interation)
         {
             //Arrange
             var validaSenha = _validaSenhaTestsFixtures.CriaValidaSenha();
@@ -46,9 +49,10 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests
 
         }
 
-        [Fact(DisplayName = "Valida Se Existe Um Digito")]
+        [Theory(DisplayName = "Valida Se Existe Um Digito")]
         [Trait("Validação Senha", "Valido")]
-        public void ValidaSeExisteUmDigitoValido()
+        [Repeat(10)]
+        public void ValidaSeExisteUmDigitoValido(int interation)
         {
             //Arrange
             var validaSenha = _validaSenhaTestsFixtures.CriaValidaSenha();
@@ -62,9 +66,10 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests
 
         }
 
-        [Fact(DisplayName = "Valida Se Existe Um Caracter Minusculo")]
+        [Theory(DisplayName = "Valida Se Existe Um Caracter Minusculo")]
         [Trait("Validação Senha", "Valido")]
-        public void ValidaSeExisteUmCaracterMinusculoValido()
+        [Repeat(10)]
+        public void ValidaSeExisteUmCaracterMinusculoValido(int interation)
         {
             //Arrange
             var validaSenha = _validaSenhaTestsFixtures.CriaValidaSenha();
@@ -78,9 +83,10 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests
 
         }
 
-        [Fact(DisplayName = "Valida Se Existe Um Caracter Maiusculo")]
+        [Theory(DisplayName = "Valida Se Existe Um Caracter Maiusculo")]
         [Trait("Validação Senha", "Valido")]
-        public void ValidaSeExisteUmCaracterMaiusculoValido()
+        [Repeat(10)]
+        public void ValidaSeExisteUmCaracterMaiusculoValido(int interation)
         {
             //Arrange
             var validaSenha = _validaSenhaTestsFixtures.CriaValidaSenha();
@@ -94,9 +100,10 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests
 
         }
 
-        [Fact(DisplayName = "Valida Se Existe UmCaracter Especial")]
+        [Theory(DisplayName = "Valida Se Existe UmCaracter Especial")]
         [Trait("Validação Senha", "Valido")]
-        public void ValidaSeExisteUmCaracterEspecialValido()
+        [Repeat(10)]
+        public void ValidaSeExisteUmCaracterEspecialValido(int interation)
         {
             //Arrange
             var validaSenha = _validaSenhaTestsFixtures.CriaValidaSenha();
@@ -110,9 +117,10 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests
 
         }
 
-        [Fact(DisplayName = "Valida Se Existe Espaco Em Branco")]
+        [Theory(DisplayName = "Valida Se Existe Espaco Em Branco")]
         [Trait("Validação Senha", "Valido")]
-        public void ValidaSeExisteEspacoEmBrancoValido()
+        [Repeat(10)]
+        public void ValidaSeExisteEspacoEmBrancoValido(int interation)
         {
             //Arrange
             var validaSenha = _validaSenhaTestsFixtures.CriaValidaSenha();
@@ -128,9 +136,10 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests
 
 
 
-        [Fact(DisplayName = "Valida Se Existe Caracter Repetido")]
+        [Theory(DisplayName = "Valida Se Existe Caracter Repetido")]
         [Trait("Validação Senha", "Não Valido")]
-        public void ValidaSeExisteCaracterRepetidoNaoValido()
+        [Repeat(10)]
+        public void ValidaSeExisteCaracterRepetidoNaoValido(int interation)
         {
             //Arrange
             var validaSenha = _validaSenhaTestsFixtures.CriaValidaSenha();
@@ -144,9 +153,10 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests
 
         }
 
-        [Fact(DisplayName = "Valida Nove Ou Mais Caracteres")]
+        [Theory(DisplayName = "Valida Nove Ou Mais Caracteres")]
         [Trait("Validação Senha", "Não Valido")]
-        public void ValidaNoveOuMaisCaracteresNaoValido()
+        [Repeat(10)]
+        public void ValidaNoveOuMaisCaracteresNaoValido(int interation)
         {
             //Arrange
             var validaSenha = _validaSenhaTestsFixtures.CriaValidaSenha();
@@ -161,9 +171,10 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests
         }
 
 
-        [Fact(DisplayName = "Valida Se Existe Um Digito")]
+        [Theory(DisplayName = "Valida Se Existe Um Digito")]
         [Trait("Validação Senha", "Não Valido")]
-        public void ValidaSeExisteUmDigitoNaoValido()
+        [Repeat(10)]
+        public void ValidaSeExisteUmDigitoNaoValido(int interation)
         {
             //Arrange
             var validaSenha = _validaSenhaTestsFixtures.CriaValidaSenha();
@@ -178,9 +189,10 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests
         }
 
 
-        [Fact(DisplayName = "Valida Se Existe Um Caracter Maiusculo")]
+        [Theory(DisplayName = "Valida Se Existe Um Caracter Maiusculo")]
         [Trait("Validação Senha", "Não Valido")]
-        public void ValidaSeExisteUmCaracterMaiusculoNaoValido()
+        [Repeat(10)]
+        public void ValidaSeExisteUmCaracterMaiusculoNaoValido(int interation)
         {
             //Arrange
             var validaSenha = _validaSenhaTestsFixtures.CriaValidaSenha();
@@ -195,9 +207,10 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests
         }
 
 
-        [Fact(DisplayName = "Valida Se Existe Um Caracter Minusculo")]
+        [Theory(DisplayName = "Valida Se Existe Um Caracter Minusculo")]
         [Trait("Validação Senha", "Não Valido")]
-        public void ValidaSeExisteUmCaracterMinusculoNaoValido()
+        [Repeat(10)]
+        public void ValidaSeExisteUmCaracterMinusculoNaoValido(int interation)
         {
             //Arrange
             var validaSenha = _validaSenhaTestsFixtures.CriaValidaSenha();
@@ -211,9 +224,10 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests
 
         }
 
-        [Fact(DisplayName = "Valida Se Existe Um Caracter Especial")]
+        [Theory(DisplayName = "Valida Se Existe Um Caracter Especial")]
         [Trait("Validação Senha", "Não Valido")]
-        public void ValidaSeExisteUmCaracterEspecialNaoValido()
+        [Repeat(10)]
+        public void ValidaSeExisteUmCaracterEspecialNaoValido(int interation)
         {
             //Arrange
             var validaSenha = _validaSenhaTestsFixtures.CriaValidaSenha();
@@ -228,9 +242,10 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests
         }
 
 
-        [Fact(DisplayName = "Valida Se Existe Espaco Em Branco")]
+        [Theory(DisplayName = "Valida Se Existe Espaco Em Branco")]
         [Trait("Validação Senha", "Não Valido")]
-        public void ValidaSeExisteEspacoEmBrancoNaoValido()
+        [Repeat(10)]
+        public void ValidaSeExisteEspacoEmBrancoNaoValido(int interation)
         {
             //Arrange
             var validaSenha = _validaSenhaTestsFixtures.CriaValidaSenha();

@@ -75,16 +75,23 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests.Fixtures
 
             var lowercase = r.Char('a', 'z').ToString();
             var uppercase = r.Char('A', 'Z').ToString();
-            var number = r.Char('0', '9').ToString();
+            var number = r.Char('0', '9');
 
             string[] arraySimbol = { "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "+" };
             int asIndex = rnd.Next(arraySimbol.Length);
             var symbol = arraySimbol[asIndex];
 
-            var chars = (lowercase + uppercase + number + symbol
+            var chars = (lowercase + uppercase 
                 ).ToList();
 
-            chars.Add(' ');
+
+            var idx = rnd.Next(0, chars.Count);
+            var charRepetido = chars[idx];
+            chars.Add(charRepetido);
+
+            chars.Add(number);
+            chars.Add(Convert.ToChar(symbol));
+
 
             List<char> padding = new List<char>();
             var tamanhoInicial = chars.Count;
@@ -115,9 +122,8 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests.Fixtures
             listaOpcoes.AddRange(padding);
 
 
-            var idx = rnd.Next(0, listaOpcoes.Count);
-            var charRepetido = listaOpcoes[idx];
-            listaOpcoes.Add(charRepetido);
+
+            listaOpcoes.Add(' ');
 
             var senha = r.Shuffle(listaOpcoes.ToArray()).ToArray();
 
@@ -139,11 +145,11 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests.Fixtures
             var chars = (lowercase + number + symbol
                 ).ToList();
 
-            chars.Add(' ');
+            
 
             List<char> padding = new List<char>();
             var tamanhoInicial = chars.Count;
-            while (tamanhoInicial < (minLength - 1))
+            while (tamanhoInicial < (minLength - 2))
             {
                 var addChar = r.Char('a', 'z');
                 padding.Add(addChar);
@@ -160,6 +166,8 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests.Fixtures
             var idx = rnd.Next(0, listaOpcoes.Count);
             var charRepetido = listaOpcoes[idx];
             listaOpcoes.Add(charRepetido);
+
+            listaOpcoes.Add(' ');
 
             var senha = r.Shuffle(listaOpcoes.ToArray()).ToArray();
 
@@ -181,11 +189,11 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests.Fixtures
             var chars = (uppercase + number + symbol
                 ).ToList();
 
-            chars.Add(' ');
+            
 
             List<char> padding = new List<char>();
             var tamanhoInicial = chars.Count;
-            while (tamanhoInicial < (minLength - 1))
+            while (tamanhoInicial < (minLength - 2))
             {
                 var addChar = r.Char('A', 'Z');
                 padding.Add(addChar);
@@ -202,6 +210,8 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests.Fixtures
             var idx = rnd.Next(0, listaOpcoes.Count);
             var charRepetido = listaOpcoes[idx];
             listaOpcoes.Add(charRepetido);
+
+            listaOpcoes.Add(' ');
 
             var senha = r.Shuffle(listaOpcoes.ToArray()).ToArray();
 
@@ -221,11 +231,11 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests.Fixtures
             var chars = (lowercase + uppercase + number
                 ).ToList();
 
-            chars.Add(' ');
+            
 
             List<char> padding = new List<char>();
             var tamanhoInicial = chars.Count;
-            while (tamanhoInicial < (minLength - 1))
+            while (tamanhoInicial < (minLength - 2))
             {
                 var addChar = r.Char('a', 'z');
 
@@ -255,6 +265,8 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests.Fixtures
             var idx = rnd.Next(0, listaOpcoes.Count);
             var charRepetido = listaOpcoes[idx];
             listaOpcoes.Add(charRepetido);
+
+            listaOpcoes.Add(' ');
 
             var senha = r.Shuffle(listaOpcoes.ToArray()).ToArray();
 
@@ -276,7 +288,7 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests.Fixtures
             var chars = (lowercase + uppercase + symbol
                 ).ToList();
 
-            chars.Add(' ');
+            
 
             List<char> padding = new List<char>();
             var tamanhoInicial = chars.Count;
@@ -310,6 +322,8 @@ namespace bpls.validaSenha.Test.ValidaSenhaTests.Fixtures
             var idx = rnd.Next(0, listaOpcoes.Count);
             var charRepetido = listaOpcoes[idx];
             listaOpcoes.Add(charRepetido);
+
+            listaOpcoes.Add(' ');
 
             var senha = r.Shuffle(listaOpcoes.ToArray()).ToArray();
 
