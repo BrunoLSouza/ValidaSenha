@@ -35,4 +35,4 @@ Dessa modo foi exposto uma unica action (IsValid) que implementa todos os 7 mét
 
 ## Endpoint
 
-Ao executar a aplicação, a mesma irá  expor o seguinte endpoint -> "https<span></span>://localhost:44330/Senha/IsValid/{SENHA}" 
+Ao executar a aplicação, a mesma irá  expor o seguinte endpoint [GET] -> "https<span></span>://localhost:44330/Senha/IsValid/{SENHA}" 
