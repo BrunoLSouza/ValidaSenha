@@ -83,7 +83,7 @@ namespace bpls.validaSenha.API.Logica
 
         public bool ValidaSeExisteUmCaracterEspecial(string senha)
         {
-            var regex = new Regex(@"[!@#$%^&*()-+]");
+            var regex = new Regex(@"[!@#$%^&*()\-+]");
             var repetido = regex.Match(senha);
 
             if (!String.IsNullOrWhiteSpace(senha) && repetido.Length > 0)
