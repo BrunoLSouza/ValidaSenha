@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6NCF01LYqMZIIYDQj4tegn6BafzaqoTUs1VO4Qls0+9+7w3aPGLTSuWryUw8C7MKdW3qCfqdxUanjXQCt9quow==",
+  "dgSpecHash": "E+qVvRTxrYDOCiMwM9orBJPzL3YpJry4QGnd8xfFRoFQ93SjIH8CHsI6x2N6BJJ0AT6A7ZAkElmDLmnknP9fIg==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\ValidaSenha_TesteItau\\bpls.validaSenha.API\\bpls.validaSenha.API.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\bruno\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\bruno\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\bruno\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\bruno\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
   "logs": []
 }

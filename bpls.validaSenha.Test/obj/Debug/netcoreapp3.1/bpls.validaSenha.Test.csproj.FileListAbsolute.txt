@@ -107,3 +107,7 @@ C:\Projetos\ValidaSenha_TesteItau\bpls.validaSenha.Test\bin\Debug\netcoreapp3.1\
 C:\Projetos\ValidaSenha_TesteItau\bpls.validaSenha.Test\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Projetos\ValidaSenha_TesteItau\bpls.validaSenha.Test\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
 C:\Projetos\ValidaSenha_TesteItau\bpls.validaSenha.Test\bin\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
+C:\Projetos\ValidaSenha_TesteItau\bpls.validaSenha.Test\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Projetos\ValidaSenha_TesteItau\bpls.validaSenha.Test\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projetos\ValidaSenha_TesteItau\bpls.validaSenha.Test\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projetos\ValidaSenha_TesteItau\bpls.validaSenha.Test\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll

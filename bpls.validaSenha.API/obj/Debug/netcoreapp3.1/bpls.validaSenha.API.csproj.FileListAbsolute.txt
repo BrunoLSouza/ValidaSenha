@@ -38,3 +38,9 @@ C:\Projetos\ValidaSenha_TesteItau\bpls.validaSenha.API\obj\Debug\netcoreapp3.1\b
 C:\Projetos\ValidaSenha_TesteItau\bpls.validaSenha.API\obj\Debug\netcoreapp3.1\bpls.validaSenha.API.dll
 C:\Projetos\ValidaSenha_TesteItau\bpls.validaSenha.API\obj\Debug\netcoreapp3.1\bpls.validaSenha.API.pdb
 C:\Projetos\ValidaSenha_TesteItau\bpls.validaSenha.API\obj\Debug\netcoreapp3.1\bpls.validaSenha.API.genruntimeconfig.cache
+C:\Projetos\ValidaSenha_TesteItau\bpls.validaSenha.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Projetos\ValidaSenha_TesteItau\bpls.validaSenha.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Projetos\ValidaSenha_TesteItau\bpls.validaSenha.API\obj\Debug\netcoreapp3.1\bpls.validaSenha.API.csproj.CopyComplete
+C:\Projetos\ValidaSenha_TesteItau\bpls.validaSenha.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Projetos\ValidaSenha_TesteItau\bpls.validaSenha.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projetos\ValidaSenha_TesteItau\bpls.validaSenha.API\obj\Debug\netcoreapp3.1\bpls.validaSenha.API.MvcApplicationPartsAssemblyInfo.cs
