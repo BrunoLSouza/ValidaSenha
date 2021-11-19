@@ -12,7 +12,7 @@ Aplicação desenvolvida para exemplificar a construção de uma API. Nesse exem
 
 ## Descrição
 
-Aplicação desenvolvida em .Net Core 3.1 utilizando o Visual Studio 2019, fazendo uso de outras biblioteca como:
+Aplicação desenvolvida em .Net Core 3.1 utilizando o Visual Studio 2019, fazendo uso das bibliotecas:
 
 - Swagger
 - XUnit
